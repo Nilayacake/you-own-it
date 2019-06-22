@@ -74,6 +74,29 @@ img {
     color: #fff;
 }
 
+.feature-item {
+    padding: 20px;
+}
+
+.feature-icon {
+    font-size: 24px;
+    background-color: orange;
+    color: #fff;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.feature-title {
+    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.feature-text {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
 @media (max-width: 768px) {
     .btn {
         width: 100%;
@@ -130,4 +153,8 @@ img {
     #about .section-title {
         text-align: center;
     }
+}
+
+#skills {
+    background: #fafafa;
 }
