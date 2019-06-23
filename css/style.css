@@ -53,6 +53,23 @@ img {
     text-align: right;
 }
 
+.list-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-inline-item {
+    flex-grow: 1;
+    margin-bottom: 5px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
 .img-bordered {
     border: 2px solid #a0a0a0;
     padding: 5px;
@@ -178,4 +195,58 @@ img {
         grid-column: span 12;
         text-align: center;
     }
+}
+
+#contact {
+    background: #222;
+    border-color: #333;
+}
+
+#contact .section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+}
+
+#contact .lead {
+    color: #777;
+}
+
+.form-title {
+    color: #999;
+    font-size: 2.25rem;
+    margin: 0 0 10px 0;
+}
+
+.dark .text, .dark .textarea {
+    color: #999;
+    border-color: #222;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.6);
+}
+
+.dark .btn-submit {
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    font-weight: 300;
+}
+
+.dark .btn-submit:hover, .dark .btn-submit:focus {
+    background-color: rgba(0,0,0,0.35);
+    border-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+#status-message {
+    margin-top: 0.7rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+#status-message.error {
+    background: #dc3545;
+}
+
+#status-message.error {
+    background: #28a745;
 }
