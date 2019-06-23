@@ -250,3 +250,9 @@ img {
 #status-message.error {
     background: #28a745;
 }
+
+.site-footer {
+    padding: 20px;
+    background: #2d2d2d;
+    color: #999;
+}
