@@ -158,3 +158,24 @@ img {
 #skills {
     background: #fafafa;
 }
+
+.ambassador-name {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+}
+
+@media (max-width: 768px) {
+    .ambassadors .col3 {
+        grid-column: span 6;
+    }
+}
+
+@media (max-width: 480px) {
+    .ambassadors .col3 {
+        grid-column: span 12;
+        text-align: center;
+    }
+}
