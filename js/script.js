@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
 
         // Smooth scrolling
         $root.animate({
-            scrollTop: $(href).offset().top - 100
+            scrollTop: $(href).offset().top - 50
         }, 500, function () {
             window.location.hash = href;
         });
