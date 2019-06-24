@@ -16,7 +16,7 @@ Small screen.
 
 Extra small screen.
 
-![alt text](images\screenshots\nav.png "Screenshot of the navigation")
+![alt text](https://github.com/Nilayacake/you-own-it/blob/master/images/screenshots/nav.gif "Gif of the navigation")
 
 Navigation.
 
