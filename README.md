@@ -1,6 +1,6 @@
 # You Own It
 
-Top Rated Films is a repository for client business website.
+You Own It is a repository for client business website.
 
 ## Visuals
 
